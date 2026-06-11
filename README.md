@@ -1,5 +1,10 @@
 # Codescan MCP Server
 
+[![CI](https://github.com/Presh-AR/codescan-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/Presh-AR/codescan-mcp-server/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@autorabit-ai/codescan-mcp-server?logo=npm)](https://www.npmjs.com/package/@autorabit-ai/codescan-mcp-server)
+[![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen?logo=node.js)](https://nodejs.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A Model Context Protocol (MCP) server implementation for Codescan, enabling AI models to interact with Codescan's API through a standardized interface.
 
 ## Features
