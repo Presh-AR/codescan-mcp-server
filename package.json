@@ -1,5 +1,5 @@
 {
-  "name": "codescan-mcp-server",
+  "name": "@autorabit-ai/codescan-mcp-server",
   "version": "1.1.0",
   "description": "A Model Context Protocol (MCP) server for interacting with Codescan (SonarQube) API",
   "type": "module",
@@ -8,6 +8,9 @@
   "bin": {
     "codescan-mcp-server": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -60,6 +63,10 @@
   ],
   "homepage": "https://github.com/Presh-AR/codescan-mcp-server",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "packageManager": "pnpm@10.7.1",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.9.0",
